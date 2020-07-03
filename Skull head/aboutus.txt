@@ -1,0 +1,103 @@
+<!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                <!-- Brand -->
+                <a class="navbar-brand">
+                    <img src="Images/skull.svg" width="35" height="35" class="d-inline-block align-top" alt=""/>
+                    Skull Head
+                </a>
+
+                <!-- Responsive for Mobile, Tablet & Desktop -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar navigations -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="navDropdown" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
+                                Skulls
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navDropdown">
+                                <a class="dropdown-item" href="#">Popular skulls</a>
+                                <a class="dropdown-item" href="#">Latest skulls</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Premiem custom skulls</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar search form -->
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Carouseal -->
+        <div id="carouselSlider" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselSlider" data-slide-to="1"></li>
+                <li data-target="#carouselSlider" data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="2000">
+                    <div class="image-slider-container">
+                        <img src="Images/img_slider_1.jpg" class="d-block w-100" alt="" >
+                    </div>
+                    
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Premiem Custom Made Skulls</h5>
+                        <p>This is art!</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item image-slider-container" data-interval="2000">
+                    <div class="image-slider-container">
+                        <img src="Images/img_slider_2.jpg" class="d-block w-100" alt="" >
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Buys The Best Skulls Items</h5>
+                        <p>SALES 10% OFF</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item image-slider-container" data-interval="2000">
+                    <div class="image-slider-container">
+                        <img src="Images/img_slider_3.jpg" class="d-block w-100" alt="" >
+                    </div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Face Painting</h5>
+                        <p>Best For Halloween</p>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselSlider" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
